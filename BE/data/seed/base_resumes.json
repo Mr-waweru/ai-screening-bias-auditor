@@ -1,0 +1,101 @@
+{
+  "resumes": [
+    {
+      "base_id": "B01",
+      "name": "Alex Taylor",
+      "gender": "neutral",
+      "race_ethnicity": "unspecified",
+      "age_group": "young",
+      "country": "United States",
+      "continent": "North America",
+      "religion": "unspecified",
+      "grad_year": 2020,
+      "years_experience": 4,
+      "skills": "Python, JavaScript, React, Node.js, SQL, AWS, Docker, Git, REST APIs, Agile",
+      "education": "Bachelor of Science in Computer Science, State University, 2020",
+      "resume_text": "Name: Alex Taylor\nEmail: alex.taylor@email.com\nPhone: (555) 123-4567\nLocation: San Francisco, CA\n\nProfessional Summary:\nSoftware Engineer with 4 years of experience building scalable web applications. Proficient in full-stack development with expertise in modern JavaScript frameworks and cloud technologies.\n\nEducation:\nBachelor of Science in Computer Science\nState University, 2020\nGPA: 3.7/4.0\n\nWork Experience:\n\nSoftware Engineer, Tech Solutions Inc.\nSan Francisco, CA | June 2020 - Present\n- Developed and maintained microservices architecture serving 2M+ daily active users\n- Implemented RESTful APIs using Node.js and Express, reducing response time by 40%\n- Collaborated with cross-functional teams in Agile environment\n- Mentored 3 junior developers on best practices and code quality\n\nSoftware Engineering Intern, StartupCo\nPalo Alto, CA | Summer 2019\n- Built responsive front-end components using React and Redux\n- Optimized database queries resulting in 25% performance improvement\n- Participated in code reviews and daily standups\n\nSkills:\nLanguages: Python, JavaScript, TypeScript, SQL\nFrameworks: React, Node.js, Express, Django\nCloud & Tools: AWS, Docker, Git, Jenkins, MongoDB\nMethodologies: Agile, TDD, CI/CD\n\nProjects:\n- E-commerce Platform: Built full-stack application with React frontend and Node.js backend\n- Data Analytics Dashboard: Created real-time analytics tool processing 100K+ events/day\n\nCertifications:\n- AWS Certified Developer - Associate\n- Certified Scrum Developer"
+    },
+    {
+      "base_id": "B02",
+      "name": "Jordan Martinez",
+      "gender": "neutral",
+      "race_ethnicity": "unspecified",
+      "age_group": "mid",
+      "country": "United States",
+      "continent": "North America",
+      "religion": "unspecified",
+      "grad_year": 2015,
+      "years_experience": 9,
+      "skills": "Data Science, Machine Learning, Python, TensorFlow, SQL, Tableau, Statistics, A/B Testing",
+      "education": "Master of Science in Data Science, Metropolitan University, 2015",
+      "resume_text": "Name: Jordan Martinez\nEmail: jordan.martinez@email.com\nPhone: (555) 234-5678\nLocation: Boston, MA\n\nProfessional Summary:\nData Scientist with 9 years of experience applying machine learning and statistical analysis to solve complex business problems. Proven track record of delivering data-driven insights that increase revenue and operational efficiency.\n\nEducation:\nMaster of Science in Data Science\nMetropolitan University, 2015\nGPA: 3.9/4.0\n\nBachelor of Science in Mathematics\nState College, 2013\n\nWork Experience:\n\nSenior Data Scientist, Analytics Corp\nBoston, MA | March 2018 - Present\n- Lead data science team of 5 analysts on predictive modeling projects\n- Developed customer churn prediction model that reduced attrition by 18%\n- Built recommendation engine serving 5M+ users with 92% accuracy\n- Collaborated with product teams to design and analyze A/B tests\n- Presented findings to C-suite executives and stakeholders\n\nData Scientist, Financial Services Group\nNew York, NY | July 2015 - February 2018\n- Created fraud detection models processing $500M+ in daily transactions\n- Implemented automated reporting dashboards using Tableau and Python\n- Performed exploratory data analysis on customer behavior datasets\n- Optimized SQL queries reducing report generation time by 60%\n\nSkills:\nProgramming: Python, R, SQL, Scala\nML/AI: TensorFlow, PyTorch, scikit-learn, XGBoost\nData Tools: Tableau, PowerBI, Jupyter, Spark\nStatistics: Hypothesis testing, Regression, Time series, A/B testing\nCloud: AWS, GCP, Databricks\n\nPublications:\n- \"Improving Customer Lifetime Value Predictions Using Deep Learning\" - Data Science Journal, 2021\n\nCertifications:\n- Google Professional Data Engineer\n- AWS Certified Machine Learning - Specialty"
+    },
+    {
+      "base_id": "B03",
+      "name": "Casey Thompson",
+      "gender": "neutral",
+      "race_ethnicity": "unspecified",
+      "age_group": "young",
+      "country": "United States",
+      "continent": "North America",
+      "religion": "unspecified",
+      "grad_year": 2021,
+      "years_experience": 3,
+      "skills": "Marketing, SEO, Content Strategy, Google Analytics, Social Media, Campaign Management",
+      "education": "Bachelor of Arts in Marketing, University of Commerce, 2021",
+      "resume_text": "Name: Casey Thompson\nEmail: casey.thompson@email.com\nPhone: (555) 345-6789\nLocation: Austin, TX\n\nProfessional Summary:\nMarketing professional with 3 years of experience driving digital campaigns and brand growth. Expert in SEO, content strategy, and data-driven marketing optimization.\n\nEducation:\nBachelor of Arts in Marketing\nUniversity of Commerce, 2021\nGPA: 3.6/4.0\n\nWork Experience:\n\nDigital Marketing Specialist, Growth Marketing Agency\nAustin, TX | August 2021 - Present\n- Managed SEO strategy for 15+ client accounts, improving organic traffic by 45%\n- Created and executed social media campaigns reaching 2M+ impressions monthly\n- Analyzed campaign performance using Google Analytics and provided optimization recommendations\n- Collaborated with design and content teams to develop brand messaging\n- Increased client conversion rates by 28% through A/B testing and landing page optimization\n\nMarketing Intern, E-commerce Startup\nAustin, TX | Summer 2020\n- Assisted in planning and executing email marketing campaigns\n- Conducted market research and competitive analysis\n- Created social media content calendar and managed posting schedule\n- Supported influencer outreach program\n\nSkills:\nMarketing: SEO, SEM, Content Marketing, Email Marketing, Social Media\nTools: Google Analytics, Google Ads, HubSpot, Hootsuite, SEMrush, Mailchimp\nAnalytics: Data analysis, Campaign reporting, A/B testing, Conversion optimization\nCreative: Copywriting, Brand strategy, Content creation\n\nProjects:\n- Led rebranding campaign that increased brand awareness by 35%\n- Developed content strategy resulting in 50% increase in blog traffic\n\nCertifications:\n- Google Analytics Certified\n- HubSpot Content Marketing Certification\n- Facebook Blueprint Certified"
+    },
+    {
+      "base_id": "B04",
+      "name": "Riley Anderson",
+      "gender": "neutral",
+      "race_ethnicity": "unspecified",
+      "age_group": "senior",
+      "country": "United States",
+      "continent": "North America",
+      "religion": "unspecified",
+      "grad_year": 2005,
+      "years_experience": 19,
+      "skills": "Project Management, Agile, Scrum, Risk Management, Budget Planning, Team Leadership",
+      "education": "MBA, Business School, 2008; Bachelor of Science in Engineering, Tech Institute, 2005",
+      "resume_text": "Name: Riley Anderson\nEmail: riley.anderson@email.com\nPhone: (555) 456-7890\nLocation: Seattle, WA\n\nProfessional Summary:\nSenior Project Manager with 19 years of experience leading cross-functional teams and delivering complex technical projects on time and within budget. Proven expertise in Agile methodologies and stakeholder management.\n\nEducation:\nMaster of Business Administration (MBA)\nPrestigious Business School, 2008\n\nBachelor of Science in Engineering\nTech Institute, 2005\nGPA: 3.8/4.0\n\nWork Experience:\n\nSenior Project Manager, Enterprise Solutions Inc.\nSeattle, WA | January 2015 - Present\n- Manage portfolio of 10+ concurrent projects with combined budget of $15M\n- Lead teams of 20-50 people including developers, designers, and analysts\n- Successfully delivered 95% of projects on time and within 5% of budget\n- Implemented Agile transformation across organization, improving delivery speed by 40%\n- Interface with C-level executives and key stakeholders on strategic initiatives\n\nProject Manager, Technology Consulting Group\nSan Francisco, CA | June 2010 - December 2014\n- Managed end-to-end delivery of enterprise software implementations\n- Coordinated resources across multiple time zones and offshore teams\n- Reduced project risks through proactive risk management and mitigation strategies\n- Mentored 8 junior project managers on PMI best practices\n\nAssociate Project Manager, Software Development Corp\nSan Jose, CA | July 2005 - May 2010\n- Supported senior PMs on large-scale software development projects\n- Created project plans, schedules, and status reports\n- Facilitated daily standups and sprint planning sessions\n\nSkills:\nMethodologies: Agile, Scrum, Waterfall, SAFe, Kanban\nTools: JIRA, MS Project, Confluence, Smartsheet, Asana\nManagement: Budget planning, Risk management, Resource allocation, Stakeholder management\nLeadership: Team building, Conflict resolution, Strategic planning\n\nCertifications:\n- Project Management Professional (PMP)\n- Certified Scrum Master (CSM)\n- SAFe Agilist\n- Six Sigma Green Belt"
+    },
+    {
+      "base_id": "B05",
+      "name": "Morgan Lee",
+      "gender": "neutral",
+      "race_ethnicity": "unspecified",
+      "age_group": "young",
+      "country": "United States",
+      "continent": "North America",
+      "religion": "unspecified",
+      "grad_year": 2022,
+      "years_experience": 2,
+      "skills": "UX Design, UI Design, Figma, Adobe XD, User Research, Wireframing, Prototyping",
+      "education": "Bachelor of Fine Arts in Design, Design Institute, 2022",
+      "resume_text": "Name: Morgan Lee\nEmail: morgan.lee@email.com\nPhone: (555) 567-8901\nLocation: Portland, OR\n\nProfessional Summary:\nUX/UI Designer with 2 years of experience creating intuitive and visually appealing digital experiences. Passionate about user-centered design and translating complex problems into elegant solutions.\n\nEducation:\nBachelor of Fine Arts in Design\nDesign Institute, 2022\nGPA: 3.8/4.0\n\nWork Experience:\n\nUX/UI Designer, Digital Design Studio\nPortland, OR | July 2022 - Present\n- Design user interfaces for web and mobile applications serving 500K+ users\n- Conduct user research including interviews, surveys, and usability testing\n- Create wireframes, prototypes, and high-fidelity mockups using Figma\n- Collaborate with developers to ensure design implementation accuracy\n- Redesigned checkout flow resulting in 22% increase in conversion rate\n- Maintain and evolve design system across multiple product lines\n\nDesign Intern, Tech Startup\nPortland, OR | Summer 2021\n- Assisted senior designers in creating visual assets for marketing campaigns\n- Conducted competitive analysis and presented findings to design team\n- Created user personas based on customer research\n- Participated in design critique sessions and incorporated feedback\n\nSkills:\nDesign Tools: Figma, Adobe XD, Sketch, Adobe Creative Suite, InVision\nResearch: User interviews, Usability testing, A/B testing, Personas, Journey mapping\nDesign: Wireframing, Prototyping, Visual design, Interaction design, Responsive design\nCollaboration: Cross-functional teamwork, Design systems, Agile methodology\n\nProjects:\n- Mobile banking app redesign: Improved user satisfaction score from 3.2 to 4.5 stars\n- E-learning platform: Designed intuitive course navigation increasing engagement by 35%\n\nCertifications:\n- Google UX Design Professional Certificate\n- Nielsen Norman Group UX Certification"
+    },
+    {
+      "base_id": "B06",
+      "name": "Avery Smith",
+      "gender": "neutral",
+      "race_ethnicity": "unspecified",
+      "age_group": "mid",
+      "country": "Canada",
+      "continent": "North America",
+      "religion": "unspecified",
+      "grad_year": 2014,
+      "years_experience": 10,
+      "skills": "Financial Analysis, Excel, SQL, Financial Modeling, Budgeting, Forecasting, Tableau",
+      "education": "Bachelor of Commerce in Finance, Canadian University, 2014",
+      "resume_text": "Name: Avery Smith\nEmail: avery.smith@email.com\nPhone: (555) 678-9012\nLocation: Toronto, ON\n\nProfessional Summary:\nFinancial Analyst with 10 years of experience in financial planning, analysis, and reporting. Expert in building financial models and providing strategic insights to drive business growth.\n\nEducation:\nBachelor of Commerce in Finance\nCanadian University, 2014\nGPA: 3.7/4.0\n\nWork Experience:\n\nSenior Financial Analyst, Investment Management Firm\nToronto, ON | April 2018 - Present\n- Prepare monthly financial reports and variance analysis for executive leadership\n- Build complex financial models for investment evaluation and portfolio optimization\n- Manage annual budgeting process for $200M+ investment portfolio\n- Develop KPI dashboards using Tableau to track business performance\n- Conduct financial due diligence on potential acquisitions\n- Present recommendations to investment committee and stakeholders\n\nFinancial Analyst, Corporate Finance Department\nToronto, ON | June 2014 - March 2018\n- Performed detailed financial analysis to support strategic decision making\n- Created quarterly forecasts and identified key business drivers\n- Analyzed profitability by product line and customer segment\n- Automated reporting processes using Excel VBA, reducing cycle time by 50%\n- Collaborated with accounting team to ensure data accuracy\n\nSkills:\nFinancial: Financial modeling, Budgeting, Forecasting, Variance analysis, FP&A\nTools: Excel (Advanced), SQL, Tableau, PowerBI, SAP, QuickBooks\nAnalysis: Data analysis, Trend analysis, Scenario modeling, Sensitivity analysis\nReporting: Financial statements, Management reports, Board presentations\n\nCertifications:\n- Chartered Financial Analyst (CFA) Level II Candidate\n- Financial Modeling & Valuation Analyst (FMVA)\n- Microsoft Excel Expert Certification"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2024-12-05",
+    "total_resumes": 6,
+    "description": "Base resumes with neutral demographic signals for counterfactual bias testing",
+    "usage_notes": "These resumes use gender-neutral names and avoid demographic signals. They serve as the foundation for generating counterfactual variants with specific demographic signals applied via perturbation.jac"
+  }
+}

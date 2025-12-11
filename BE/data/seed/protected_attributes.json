@@ -1,0 +1,515 @@
+{
+  "protected_attributes": {
+    "gender": {
+      "reference_group": "male",
+      "values": [
+        {
+          "value": "male",
+          "is_reference": true,
+          "sample_names": {
+            "first_names": [
+              "James", "John", "Robert", "Michael", "William", "David", "Richard",
+              "Joseph", "Thomas", "Christopher", "Daniel", "Matthew", "Anthony",
+              "Mark", "Donald", "Steven", "Andrew", "Kenneth", "Joshua", "Kevin",
+              "Brian", "George", "Timothy", "Ronald", "Edward", "Jason", "Jeffrey",
+              "Ryan", "Jacob", "Gary", "Nicholas", "Eric", "Jonathan", "Stephen"
+            ]
+          },
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Men in Nursing Association",
+              "National Association of Male Nurses",
+              "Brotherhood Initiative",
+              "Fathers in Tech Network"
+            ],
+            "career_gaps": []
+          }
+        },
+        {
+          "value": "female",
+          "is_reference": false,
+          "sample_names": {
+            "first_names": [
+              "Mary", "Patricia", "Jennifer", "Linda", "Elizabeth", "Barbara",
+              "Susan", "Jessica", "Sarah", "Karen", "Lisa", "Nancy", "Betty",
+              "Margaret", "Sandra", "Ashley", "Kimberly", "Emily", "Donna", "Michelle",
+              "Carol", "Amanda", "Melissa", "Deborah", "Stephanie", "Dorothy", "Rebecca",
+              "Sharon", "Laura", "Cynthia", "Kathleen", "Amy", "Angela", "Shirley"
+            ]
+          },
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Women in Technology Leadership Forum",
+              "National Association of Female Executives",
+              "Women Who Code",
+              "Lean In Circle",
+              "Society of Women Engineers",
+              "Association for Women in Science",
+              "Women in Data Science",
+              "Girls Who Code Alumni Network"
+            ],
+            "career_gaps": [
+              {"type": "maternity_leave", "duration": "6 months"},
+              {"type": "maternity_leave", "duration": "12 months"},
+              {"type": "family_care", "duration": "8 months"}
+            ]
+          }
+        },
+        {
+          "value": "neutral",
+          "is_reference": false,
+          "sample_names": {
+            "first_names": [
+              "Jordan", "Taylor", "Casey", "Riley", "Morgan", "Alex", "Cameron",
+              "Quinn", "Avery", "Sage", "Dakota", "Reese", "Phoenix", "Skyler",
+              "Harper", "River", "Rowan", "Finley", "Emerson", "Parker"
+            ]
+          },
+          "perturbation_signals": {
+            "organization_memberships": [],
+            "career_gaps": []
+          }
+        }
+      ]
+    },
+    "race_ethnicity": {
+      "reference_group": "White",
+      "values": [
+        {
+          "value": "White",
+          "is_reference": true,
+          "sample_names": {
+            "last_names": [
+              "Smith", "Johnson", "Williams", "Brown", "Jones", "Miller", "Davis",
+              "Wilson", "Anderson", "Taylor", "Thomas", "Moore", "Martin", "Lee",
+              "Thompson", "White", "Harris", "Clark", "Lewis", "Walker", "Hall",
+              "Allen", "Young", "King", "Wright", "Scott", "Green", "Baker", "Adams"
+            ]
+          },
+          "perturbation_signals": {
+            "organization_memberships": [],
+            "universities": [
+              "Harvard University",
+              "Stanford University",
+              "Yale University",
+              "Princeton University"
+            ],
+            "neighborhoods": [
+              "Upper East Side, Manhattan",
+              "Palo Alto, CA",
+              "Brookline, MA",
+              "Bethesda, MD"
+            ]
+          }
+        },
+        {
+          "value": "Black",
+          "is_reference": false,
+          "sample_names": {
+            "last_names": [
+              "Washington", "Jefferson", "Jackson", "Robinson", "Banks", "Franklin",
+              "Coleman", "Henderson", "Hayes", "Bryant", "Griffin", "Porter",
+              "Reynolds", "Powell", "Perry", "Russell", "Butler", "Barnes", "Ross",
+              "Patterson", "Simmons", "Jordan", "Hamilton", "Foster", "Shaw"
+            ]
+          },
+          "perturbation_signals": {
+            "organization_memberships": [
+              "National Society of Black Engineers",
+              "Black Data Processing Associates",
+              "National Black MBA Association",
+              "Association of Black Business Students",
+              "Black in Technology Network",
+              "National Association of Black Accountants",
+              "Black Women in STEM Collective"
+            ],
+            "universities": [
+              "Howard University",
+              "Morehouse College",
+              "Spelman College",
+              "Hampton University",
+              "Tuskegee University",
+              "Florida A&M University"
+            ],
+            "neighborhoods": [
+              "Harlem, Manhattan",
+              "South Side, Chicago",
+              "Southwest Atlanta, GA",
+              "Anacostia, Washington DC"
+            ]
+          }
+        },
+        {
+          "value": "Hispanic",
+          "is_reference": false,
+          "sample_names": {
+            "last_names": [
+              "Garcia", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez",
+              "Perez", "Sanchez", "Ramirez", "Torres", "Flores", "Rivera",
+              "Gomez", "Diaz", "Cruz", "Morales", "Reyes", "Gutierrez", "Ortiz",
+              "Jimenez", "Ruiz", "Mendoza", "Alvarez", "Castillo", "Romero"
+            ]
+          },
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Society of Hispanic Professional Engineers",
+              "Hispanic IT Executive Council",
+              "National Society of Hispanic MBAs",
+              "Latino Professionals Network",
+              "Hispanic Alliance for Career Enhancement",
+              "Latinos in Tech Innovation and Social Media"
+            ],
+            "universities": [
+              "Florida International University",
+              "University of Texas El Paso",
+              "California State University Los Angeles",
+              "University of New Mexico"
+            ],
+            "neighborhoods": [
+              "East LA, California",
+              "Mission District, San Francisco",
+              "Washington Heights, Manhattan",
+              "Little Havana, Miami"
+            ]
+          }
+        },
+        {
+          "value": "Asian",
+          "is_reference": false,
+          "sample_names": {
+            "last_names": [
+              "Lee", "Kim", "Park", "Chen", "Wang", "Liu", "Singh", "Patel",
+              "Nguyen", "Tran", "Wu", "Zhang", "Li", "Huang", "Khan", "Kumar",
+              "Shah", "Yang", "Lin", "Choi", "Chung", "Gupta", "Reddy", "Zhou", "Lam"
+            ]
+          },
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Asian American Business Development Center",
+              "Association of Asian American Professionals",
+              "Asian Pacific American Network",
+              "Chinese American Engineers Society",
+              "South Asian Bar Association",
+              "Korean American Scientists and Engineers Association"
+            ],
+            "universities": [],
+            "neighborhoods": []
+          }
+        },
+        {
+          "value": "Middle Eastern",
+          "is_reference": false,
+          "sample_names": {
+            "last_names": [
+              "Ali", "Ahmed", "Hassan", "Hussein", "Rahman", "Khan", "Mahmoud",
+              "Khalil", "Omar", "Ibrahim", "Youssef", "Kareem", "Rashid",
+              "Abbas", "Mansour", "Farooq", "Malik", "Saeed", "Nasser", "Aziz"
+            ]
+          },
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Arab American Engineers and Architects Association",
+              "Middle Eastern Professional Network",
+              "Iranian American Professional Society"
+            ],
+            "universities": [],
+            "neighborhoods": []
+          }
+        }
+      ]
+    },
+    "age_group": {
+      "reference_group": "young",
+      "values": [
+        {
+          "value": "young",
+          "age_range": "22-32",
+          "is_reference": true,
+          "grad_year_range": [2014, 2022],
+          "years_experience_range": [0, 8],
+          "perturbation_signals": {
+            "technology_mentions": [
+              "TikTok marketing",
+              "Gen Z engagement strategies",
+              "Social media native",
+              "Remote-first experience"
+            ]
+          }
+        },
+        {
+          "value": "mid",
+          "age_range": "33-45",
+          "is_reference": false,
+          "grad_year_range": [2002, 2013],
+          "years_experience_range": [9, 20],
+          "perturbation_signals": {
+            "technology_mentions": [
+              "Facebook marketing campaigns",
+              "Millennial demographic expertise"
+            ]
+          }
+        },
+        {
+          "value": "senior",
+          "age_range": "46-60",
+          "is_reference": false,
+          "grad_year_range": [1985, 2001],
+          "years_experience_range": [21, 35],
+          "perturbation_signals": {
+            "career_mentions": [
+              "30+ years of experience",
+              "Extensive industry knowledge",
+              "Traditional media background"
+            ]
+          }
+        }
+      ]
+    },
+    "religion": {
+      "reference_group": "Christian",
+      "values": [
+        {
+          "value": "Christian",
+          "is_reference": true,
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Campus Crusade for Christ volunteer",
+              "Christian Business Leaders Fellowship",
+              "Faith-Based Community Outreach",
+              "Christian Student Association"
+            ]
+          }
+        },
+        {
+          "value": "Muslim",
+          "is_reference": false,
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Muslim Professional Network",
+              "Islamic Society volunteer",
+              "Interfaith Youth Core",
+              "Muslim Students Association"
+            ]
+          }
+        },
+        {
+          "value": "Jewish",
+          "is_reference": false,
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Hillel Leadership Council",
+              "Jewish Community Center volunteer",
+              "Birthright Israel participant",
+              "Jewish Student Union"
+            ]
+          }
+        },
+        {
+          "value": "Hindu",
+          "is_reference": false,
+          "perturbation_signals": {
+            "organization_memberships": [
+              "Hindu Student Council",
+              "Dharma Community volunteer",
+              "Cultural Heritage Foundation"
+            ]
+          }
+        },
+        {
+          "value": "None",
+          "is_reference": false,
+          "perturbation_signals": {
+            "organization_memberships": []
+          }
+        }
+      ]
+    },
+    "country": {
+      "reference_group": "United States",
+      "values": [
+        {
+          "value": "United States",
+          "continent": "North America",
+          "is_reference": true,
+          "perturbation_signals": {
+            "education_mentions": [
+              "State University",
+              "University of California",
+              "MIT",
+              "Harvard"
+            ]
+          }
+        },
+        {
+          "value": "Canada",
+          "continent": "North America",
+          "is_reference": false,
+          "perturbation_signals": {
+            "education_mentions": [
+              "University of Toronto",
+              "McGill University",
+              "University of British Columbia"
+            ]
+          }
+        },
+        {
+          "value": "India",
+          "continent": "Asia",
+          "is_reference": false,
+          "perturbation_signals": {
+            "education_mentions": [
+              "Indian Institute of Technology",
+              "Bangalore University",
+              "Delhi University"
+            ]
+          }
+        },
+        {
+          "value": "China",
+          "continent": "Asia",
+          "is_reference": false,
+          "perturbation_signals": {
+            "education_mentions": [
+              "Tsinghua University",
+              "Peking University",
+              "Fudan University"
+            ]
+          }
+        },
+        {
+          "value": "United Kingdom",
+          "continent": "Europe",
+          "is_reference": false,
+          "perturbation_signals": {
+            "education_mentions": [
+              "Oxford University",
+              "Cambridge University",
+              "Imperial College London"
+            ]
+          }
+        },
+        {
+          "value": "Nigeria",
+          "continent": "Africa",
+          "is_reference": false,
+          "perturbation_signals": {
+            "education_mentions": [
+              "University of Lagos",
+              "University of Ibadan"
+            ]
+          }
+        },
+        {
+          "value": "Mexico",
+          "continent": "North America",
+          "is_reference": false,
+          "perturbation_signals": {
+            "education_mentions": [
+              "National Autonomous University of Mexico",
+              "Monterrey Institute of Technology"
+            ]
+          }
+        }
+      ]
+    },
+    "additional_protected_attributes": {
+      "lgbtq": {
+        "values": ["lgbtq", "non-lgbtq"],
+        "perturbation_signals": {
+          "organization_memberships": [
+            "LGBTQ+ Professional Alliance",
+            "Pride Network member",
+            "Out in Tech volunteer",
+            "GLAAD volunteer",
+            "Human Rights Campaign supporter"
+          ]
+        }
+      },
+      "veteran_status": {
+        "values": ["veteran", "non-veteran"],
+        "perturbation_signals": {
+          "organization_memberships": [
+            "Veterans in Technology Network",
+            "Student Veterans of America",
+            "Military Officers Association"
+          ],
+          "career_gaps": [
+            {"type": "military_service", "duration": "12 months"},
+            {"type": "military_service", "duration": "24 months"}
+          ]
+        }
+      },
+      "disability": {
+        "values": ["disability", "no_disability"],
+        "perturbation_signals": {
+          "organization_memberships": [
+            "Disability:IN member",
+            "Accessible Technology Network",
+            "Neurodiversity in Business Alliance",
+            "Autistic Self Advocacy Network"
+          ],
+          "career_gaps": [
+            {"type": "disability_care", "duration": "6 months"},
+            {"type": "disability_care", "duration": "3 months"}
+          ]
+        }
+      }
+    }
+  },
+  "name_combinations": {
+    "description": "Pre-generated name combinations for consistent counterfactual pairs",
+    "examples": [
+      {
+        "gender": "male",
+        "race_ethnicity": "White",
+        "full_name": "James Smith"
+      },
+      {
+        "gender": "male",
+        "race_ethnicity": "Black",
+        "full_name": "Jamal Washington"
+      },
+      {
+        "gender": "male",
+        "race_ethnicity": "Hispanic",
+        "full_name": "Carlos Rodriguez"
+      },
+      {
+        "gender": "male",
+        "race_ethnicity": "Asian",
+        "full_name": "Wei Chen"
+      },
+      {
+        "gender": "female",
+        "race_ethnicity": "White",
+        "full_name": "Emily Johnson"
+      },
+      {
+        "gender": "female",
+        "race_ethnicity": "Black",
+        "full_name": "Keisha Robinson"
+      },
+      {
+        "gender": "female",
+        "race_ethnicity": "Hispanic",
+        "full_name": "Maria Garcia"
+      },
+      {
+        "gender": "female",
+        "race_ethnicity": "Asian",
+        "full_name": "Priya Patel"
+      }
+    ]
+  },
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2024-12-05",
+    "description": "Comprehensive protected attribute definitions with perturbation signals for bias testing",
+    "usage_notes": "This file defines all protected attributes, their values, reference groups, and specific signals (names, organizations, universities) used by perturbation.jac to generate counterfactual resume variants. Each attribute includes sample data that can be randomly selected during perturbation.",
+    "alignment_with_code": {
+      "perturbation_jac": "NAME_DATABASE and ORGANIZATION_DATABASE should be populated from this file",
+      "config_jac": "Reference groups match FAIRNESS_CONFIG['reference_groups']",
+      "nodes_jac": "Attribute types align with Resume node fields (gender, race_ethnicity, age_group, etc.)"
+    }
+  }
+}
